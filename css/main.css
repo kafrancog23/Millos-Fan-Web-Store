@@ -1,0 +1,234 @@
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  display: flex;
+  height: 100px;
+  margin: auto;
+  max-width: 1280px;
+  width: 95%;
+}
+nav p {
+  font-size: 1.6rem;
+  color: #0E2C56;
+}
+nav .logo-header img {
+  width: 80px;
+  padding: 20px;
+}
+nav .icons {
+  display: flex;
+  gap: 5px;
+}
+nav .icons button {
+  background: none;
+  border-style: none;
+}
+
+article {
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0 5%;
+}
+article p {
+  font-size: 1rem;
+  padding: 0 5%;
+}
+article button {
+  display: block;
+  margin: 6% auto;
+  width: 30%;
+  padding: 2%;
+}
+article button:hover {
+  transform: scale(1.1);
+}
+article .info-section {
+  background-color: #0E2C56;
+  color: #F1F3F5;
+  border-radius: 15px 0px 0px 15px;
+  width: 55%;
+}
+article .image-section {
+  width: 45%;
+  background-size: cover;
+  background-position: center;
+}
+article .image-section img {
+  width: 100%;
+  border-radius: 0px 15px 15px 0px;
+}
+
+section {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  padding: 0px 60px;
+}
+section h2 {
+  color: #F1F3F5;
+  font-size: 1.7rem;
+  text-align: center;
+}
+section .Hombre, section .Mujer {
+  padding-bottom: 50px;
+}
+section .Hombre h2, section .Mujer h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 20px;
+  color: #0E2C56;
+}
+section .Hombre .card-section, section .Mujer .card-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  row-gap: 80px;
+}
+section .Hombre .product-card, section .Mujer .product-card {
+  width: 15vw;
+  height: 65vh;
+  background-color: #F4F4F4;
+  color: #0E2C56;
+  padding: 15px;
+  border-radius: 8px;
+}
+section .Hombre .product-card .icon, section .Mujer .product-card .icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2px;
+}
+section .Hombre .product-card .icon svg, section .Mujer .product-card .icon svg {
+  width: 25px;
+  height: 25px;
+  padding: 5px 0;
+}
+section .Hombre .product-card .icon svg path, section .Mujer .product-card .icon svg path {
+  stroke: #0E2C56;
+  stroke-width: 2;
+}
+section .Hombre .product-card .product-image img, section .Mujer .product-card .product-image img {
+  width: 15vw;
+  height: 40vh;
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
+section .Hombre .product-card h3, section .Mujer .product-card h3, section .Hombre .product-card p, section .Mujer .product-card p {
+  color: #0E2C56;
+}
+section .Mujer .product-card {
+  background-color: pink;
+}
+section .historia h2 {
+  font-weight: 700;
+  color: #0E2C56;
+}
+section .historia .earth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section .historia .earth img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+section .historia .earth p {
+  width: 50%;
+}
+section .galeria h2 {
+  text-align: center;
+  font-weight: 500;
+  color: #0E2C56;
+}
+section .galeria .galeria-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
+}
+section .galeria .galeria-image img {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+}
+section .galeria .galeria-image img:hover {
+  transform: scale(1.1);
+}
+section .location h2, section .location h3 {
+  color: #0E2C56;
+  font-weight: 500;
+  text-align: center;
+}
+section .location p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+section .location .mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: #0E2C56;
+}
+section .location .mapa img {
+  width: 100%;
+}
+
+footer {
+  background: #0E2C56;
+}
+footer .logo-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .logo-footer img {
+  width: 100px;
+  padding: 20px;
+}
+footer .social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer .social-media img {
+  width: 30px;
+  height: 30px;
+  padding: 15px 10px;
+}/*# sourceMappingURL=main.css.map */
